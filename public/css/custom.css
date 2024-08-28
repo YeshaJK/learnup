@@ -1,0 +1,59 @@
+div.div1 {
+    background-color: #000000;
+   color: white;
+    line-height: 20px;
+    margin-left: 20px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+div.div2 {
+    background-color: #ABBAEA;
+    padding-top: 3.2px;
+}
+i.fa-solid {
+    color: white;
+}
+.child_div {
+    background: grey;
+    height: 50%;
+    width: 50%;
+    border-top-width: thin;
+    border-top-style: solid;
+    border-top-color: white;
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50% );
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.display-none{
+    display: none;
+}
+
+.ms-n5 {
+    margin-left: -40px;
+}
